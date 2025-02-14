@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/camp.svg" sizes="any" />
+      </head>
       <body className={` antialiased`}>
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
