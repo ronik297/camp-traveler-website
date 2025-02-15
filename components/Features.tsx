@@ -53,6 +53,7 @@ const Features = () => {
                 title={feature.title}
                 icon={feature.icon}
                 description={feature.description}
+                key={feature.title}
               />
             ))}
           </ul>
